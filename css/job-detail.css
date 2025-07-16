@@ -1,0 +1,151 @@
+.job-detail-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.job-detail-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.job-detail-header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.job-detail-header .location {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.job-detail-header .salary {
+    color: #e44d26;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.job-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.job-section {
+    margin-bottom: 30px;
+}
+
+.job-section h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e44d26;
+}
+
+.job-section h3 {
+    color: #444;
+    font-size: 1.4em;
+    margin: 25px 0 15px;
+}
+
+.job-section p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.job-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.job-section ul li {
+    margin-bottom: 10px;
+}
+.application-form {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.application-form h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #e44d26;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #c73e1d;
+}
+.notification {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .job-detail-container {
+        padding: 0 15px;
+    }
+    
+    .job-detail-header h1 {
+        font-size: 2em;
+    }
+    
+    .job-content {
+        padding: 20px;
+    }
+} 
